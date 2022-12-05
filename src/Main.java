@@ -199,7 +199,17 @@ public class Main {
 
             // task 18
 
-
+            System.out.println();
+            System.out.println("Задача 18");
+            int year = 0;
+            int previous = 2022 - 200;
+            int future = 2022 + 100;
+            while (year<2022) {
+                year = year + 79;
+                if (previous < year && year < future) {
+                    System.out.println(year);
+                }
+            }
             }
         }
 
